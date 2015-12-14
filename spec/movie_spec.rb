@@ -101,7 +101,7 @@ describe 'Movie' do
     end
 
     it 'makes URLs without using unsafe characters' do 
-      expect(pans_labyrinth.url).to eq('pans_labyrinth.html' || 'pan%27s_labyrinth.html' || 'pan%27s%20labyrinth.html')
+      expect(pans_labyrinth.url).to eq('pan%27s_labyrinth.html')
     end
   end
 
